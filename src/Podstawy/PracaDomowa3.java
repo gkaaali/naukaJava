@@ -9,20 +9,18 @@ public class PracaDomowa3 {
 //                System.out.println(i);
 //            }
 
-            int[] lottoNumbers = new int[]{1, 3, 5};
-
-//            int[] numeryOdwrócone = new int[3];
-//            numeryOdwrócone[0] = lottoNumbers[2];
-//            numeryOdwrócone[1] = lottoNumbers[1];
-//            numeryOdwrócone[2] = lottoNumbers[0];
+            int[] lottoNumbers = new int[] {1, 3, 5, 7, 0};
 //
-            for (int j = 0; j<=(lottoNumbers.length); j++) {
-                System.out.println(lottoNumbers[j]);
+            for (int i = 0; i<(lottoNumbers.length/2); i++) {
+                int temp = lottoNumbers[i];
+                lottoNumbers[i] = lottoNumbers[lottoNumbers.length-1-i];
+                lottoNumbers[lottoNumbers.length-i-1] = temp;
+                System.out.println("Iteracja nr: " + i);
             }
-//
-//            for (int k = 0; k <= numeryOdwrócone.length; k++) {
-//                System.out.println(numeryOdwrócone[k]);
-//            }
+
+            for (int i=0; i < lottoNumbers.length; i++){
+                System.out.println(lottoNumbers[i]);
+            }
         }
     }
 
