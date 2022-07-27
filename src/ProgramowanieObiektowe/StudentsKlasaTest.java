@@ -1,8 +1,11 @@
 package ProgramowanieObiektowe;
 
-public class PracaDomowa4 {
+public class StudentsKlasaTest {
 
     public static void main(String[] args) {
+
+        // z klasy StudentsKlasa - pola statycznego
+        String uczelnia = StudendtsKlasaIMetodyStatyczne.nazwaUczelni;
 
         StudendtsKlasaIMetodyStatyczne student1 = new StudendtsKlasaIMetodyStatyczne();
         StudendtsKlasaIMetodyStatyczne student2 = new StudendtsKlasaIMetodyStatyczne();
@@ -13,6 +16,8 @@ public class PracaDomowa4 {
         student1.nick = "Grzesio";
         student1.indexNumber = 123;
         student1.email = "gk@wp.pl";
+        //z pola statycznego
+        String uczelniaStudent1 = student1.nazwaUczelni;
 
         student2.firstName = "Agata";
         student2.lastName = "Kalinowska";
@@ -32,6 +37,7 @@ public class PracaDomowa4 {
             students[i].introduceYourself();
             students[i].provideEmail();
             students[i].showIndexNumber();
+            students[i].provideUczelnia();
         }
     }
 }
