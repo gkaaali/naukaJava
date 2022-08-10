@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.packages.app.view;
+package ProgramowanieObiektowe.packages.view;
 
 public class HomePageView {
 }

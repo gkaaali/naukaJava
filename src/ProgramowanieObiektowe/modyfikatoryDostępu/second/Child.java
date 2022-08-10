@@ -1,18 +1,20 @@
-package ProgramowanieObiektowe.modyfikatoryDostępu.first;
+package ProgramowanieObiektowe.modyfikatoryDostępu.second;
 
-public class Child extends Parent{
+import ProgramowanieObiektowe.modyfikatoryDostępu.first.Parent;
+
+public class Child extends Parent {
 
 
-    // Klasa potomna w tej samej paczce nie ma dostępu do pól i metod private
+    // Klasa potomna w innej paczce nie ma dostępu do pól i metod private oraz default - domyślnych
 
     public void testIdentifier() {
         System.out.println(first);
-        System.out.println(second);
+//        System.out.println(second);
         System.out.println(third);
-        System.out.println(fouth);
+//        System.out.println(fouth);
         firstMethod();
-        secondMethod();
+//        secondMethod();
         thirdMethod();
-        fourthMethod();
+//        fourthMethod();
     }
 }

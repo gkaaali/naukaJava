@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.packages.app.databases;
+package ProgramowanieObiektowe.packages.databases;
 
 public class DatabaseConnection {
 }

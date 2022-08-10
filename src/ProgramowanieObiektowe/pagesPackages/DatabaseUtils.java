@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.packages.app.pagesPackages;
+package ProgramowanieObiektowe.pagesPackages;
 
 public class DatabaseUtils {
 }

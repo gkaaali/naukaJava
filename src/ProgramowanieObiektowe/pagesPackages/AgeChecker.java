@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.packages.app.pagesPackages;
+package ProgramowanieObiektowe.pagesPackages;
 
 import java.util.Scanner;
 

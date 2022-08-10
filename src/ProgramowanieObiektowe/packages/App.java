@@ -1,7 +1,7 @@
-package ProgramowanieObiektowe.packages.app;
+package ProgramowanieObiektowe.packages;
 
-import ProgramowanieObiektowe.packages.app.databases.DatabaseConnection;
-import ProgramowanieObiektowe.packages.app.databases.DatabaseUtils;
+import ProgramowanieObiektowe.packages.databases.DatabaseConnection;
+import ProgramowanieObiektowe.packages.databases.DatabaseUtils;
 
 public class App {
 

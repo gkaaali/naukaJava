@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.Dziedziczenie;
+package ProgramowanieObiektowe.DziedziczenieINadpisywanieMetod;
 
 public class PersonTest extends Person{
 
