@@ -22,4 +22,9 @@ public class FootballPlayer extends Person {
     public void myAge() {
         System.out.println("My age is: " + age);
     }
+
+    // nadpisywanie metod - z klasy Person
+    public void eat(){
+        System.out.println("I like healthy food");
+    }
 }

@@ -20,4 +20,8 @@ public class MathTeacher extends Person {
     public void myAge() {
         System.out.println("My age is: " + age);
     }
+
+    public void walk (){
+        System.out.println("I walk very fast");
+    }
 }

@@ -34,5 +34,13 @@ public class PersonTest extends Person{
 //        personOne.sayHello();
 //        personOne.myAge();
 //        personOne.playFootbal();
+
+        // nadpisywanie metod footballPlayer
+        System.out.println("NADPISYWANIE METOD");
+        playerOne.eat();
+
+        // napisywanie metod mathTeacher
+        teacherOne.eat();
+        teacherOne.walk();
     }
 }
