@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.DziedziczenieINadpisywanieMetod;
+package ProgramowanieObiektowe.dziedziczenieINadpisywanieMetod;
 
 public class Person {
 

@@ -1,6 +1,6 @@
 package ProgramowanieObiektowe;
 
-import ProgramowanieObiektowe.DziedziczenieINadpisywanieMetod.Person;
+import ProgramowanieObiektowe.dziedziczenieINadpisywanieMetod.Person;
 
 public class FinalTest {
 

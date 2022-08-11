@@ -1,4 +1,4 @@
-package ProgramowanieObiektowe.DziedziczenieINadpisywanieMetod;
+package ProgramowanieObiektowe.dziedziczenieINadpisywanieMetod;
 
 public class PracaDomowa7Test {
     public static void main(String[] args) {
